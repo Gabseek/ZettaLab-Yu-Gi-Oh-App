@@ -1,0 +1,80 @@
+.container-ap {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: -50px;
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  gap: 20px;
+
+  .titulo-ap {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .cartas-container-ap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 800px;
+    width: 100%;
+    position: relative;
+    overflow: visible;
+  }
+
+  .card-ap {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, z-index 0s ease 0.3s;
+    position: relative;
+    z-index: 1;
+
+    &:hover {
+      transform: scale(1.5);
+      z-index: 999;
+    }
+
+    .card-body-ap {
+      width: 90%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card-img-ap {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .verso-carta-ap {
+      width: 100%;
+      height: 90%;
+      background-color: #343a40;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      border-radius: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+

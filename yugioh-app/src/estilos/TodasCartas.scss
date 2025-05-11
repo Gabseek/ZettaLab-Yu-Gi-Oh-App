@@ -1,0 +1,47 @@
+.container-tc {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.titulo-tc {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cartas-container-tc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card-tc {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, z-index 0s ease 0.3s; 
+  position: relative;
+
+  &:hover {
+    transform: scale(1.5); 
+    z-index: 999; 
+  }
+}
+
+.card-img-top-tc {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+}
+

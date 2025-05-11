@@ -1,0 +1,53 @@
+.container-ca {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .card-ca {
+    width: 700px; 
+    background-color: #f8f9fa;
+    border-radius: 14px;
+    box-shadow: 0 5.6px 11.2px rgba(0, 0, 0, 0.25); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 21px; 
+    text-align: center;
+    gap: 14px;
+
+    .titulo-ca {
+      font-size: 2.38rem; 
+      font-weight: bold;
+      color: #333;
+      margin-top: 2.8rem;
+      margin-bottom: 14px;
+    }
+
+    .card-img-top-ca {
+      width: 100%;
+      height: 504px; 
+      object-fit: contain;
+      border-radius: 11px;
+      margin-bottom: 2.8rem;
+    }
+
+    .card-body-ca {
+      text-align: center;
+      font-size: 1.33rem;
+    }
+
+    .card-title {
+      font-weight: bold;
+      font-size: 1.4rem;
+      margin-top: 14px;
+      margin-bottom: 7px;
+    }
+
+    .card-text {
+      font-size: 1.19rem;
+      color: #666;
+    }
+  }
+}
+
